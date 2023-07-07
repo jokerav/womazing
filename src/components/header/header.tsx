@@ -11,12 +11,12 @@ const Header = () => {
                 <Logo />
                 <p className={s.logoText}>Womazing</p>
             </div>
-            <ul className={s.menu}>
-                <li><a>Главная</a></li>
-                <li><a>Магазин</a></li>
-                <li><a>О бренде</a></li>
-                <li><a>Контакты</a></li>
-            </ul>
+            {/*<ul className={s.menu}>*/}
+            {/*    <li><a>Главная</a></li>*/}
+            {/*    <li><a>Магазин</a></li>*/}
+            {/*    <li><a>О бренде</a></li>*/}
+            {/*    <li><a>Контакты</a></li>*/}
+            {/*</ul>*/}
             <Telephone />
             <a href='tel:+380988235412'>+38 (098) 823-54-12</a>
             <ShopingBag />
