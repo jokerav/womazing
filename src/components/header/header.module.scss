@@ -1,4 +1,12 @@
 @import '../../vars';
+.headerContainer{
+  height: 120px;
+  background-color: blueviolet;
+  display: flex;
+}
+.logoContainer{
+  display: flex;
+}
 .logoText{
   font-family: Raleway;
   color: $text-dark;
@@ -6,4 +14,8 @@
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1.6px;
+}
+.menu{
+  list-style-type: none;
+  display: flex;
 }
