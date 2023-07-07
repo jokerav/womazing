@@ -1,21 +1,40 @@
 @import '../../vars';
-.headerContainer{
+
+.headerContainer {
   height: 120px;
   background-color: blueviolet;
   display: flex;
+  align-items: center;
 }
-.logoContainer{
+
+.logoContainer {
   display: flex;
+  align-items: center;
 }
-.logoText{
+.logoIcon {
+  margin-right: 11px;
+}
+.logoText {
   font-family: Raleway;
   color: $text-dark;
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1.6px;
+  margin-right: 146px;
 }
-.menu{
-  list-style-type: none;
+
+.menu {
   display: flex;
+  margin-right: 176px;
+}
+.menuItem:not(:last-child) {
+  margin-right: 45px;
+}
+
+.phoneContainer {
+  margin-right: 67px;
+}
+.phoneIcon {
+  margin-right: 13px;
 }
