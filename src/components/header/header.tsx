@@ -17,6 +17,7 @@ const Header = () => {
             {/*    <li><a>О бренде</a></li>*/}
             {/*    <li><a>Контакты</a></li>*/}
             {/*</ul>*/}
+            <p>aewhrthwertj</p>
             <Telephone />
             <a href='tel:+380988235412'>+38 (098) 823-54-12</a>
             <ShopingBag />
