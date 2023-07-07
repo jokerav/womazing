@@ -6,6 +6,7 @@ const Header = () => {
         <header>
         <Logo/>
         <p className={s.logoText}>Womazing</p>
+            <p>sdbsdtb</p>
             </header>)
         }
 export default Header
