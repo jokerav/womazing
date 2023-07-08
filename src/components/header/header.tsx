@@ -19,7 +19,7 @@ const Header = () => {
             </ul>
             <div className={s.phoneContainer}>
                 <Telephone className={s.phoneIcon}/>
-                <a href='tel:+380988235412'>+38 (098) 823-54-12</a>
+                <a href='tel:+380988235412' className={s.phoneNumber}>+7 (495) 823-54-12</a>
             </div>
             <ShopingBag/>
         </header>)

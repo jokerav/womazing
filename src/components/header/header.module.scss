@@ -28,6 +28,15 @@
   display: flex;
   margin-right: 176px;
 }
+.menuItem{
+  color: $text-dark;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.3px;
+}
 .menuItem:not(:last-child) {
   margin-right: 45px;
 }
@@ -37,4 +46,13 @@
 }
 .phoneIcon {
   margin-right: 13px;
+}
+.phoneNumber{
+  color: $text-dark;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.3px;
 }
