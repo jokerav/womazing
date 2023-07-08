@@ -1,0 +1,12 @@
+@import "../../vars";
+.hero{
+  height: 826px;
+  display: flex;
+}
+.heroLeft{
+  width: 1215px;
+}
+.heroRight{
+  background-color: $accent;
+  width: 705px;
+}

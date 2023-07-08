@@ -1,0 +1,15 @@
+.hero {
+  height: 826px;
+  display: flex;
+}
+
+.heroLeft {
+  width: 1215px;
+}
+
+.heroRight {
+  background-color: #F1EADC;
+  width: 705px;
+}
+
+/*# sourceMappingURL=hero.module.css.map */

@@ -1,10 +1,12 @@
 .headerContainer {
   height: 28px;
-  background-color: transparent;
+  background-color: #fff;
   display: flex;
   align-items: center;
   margin-top: 51px;
   outline: 1px solid tomato;
+  position: absolute;
+  z-index: 2;
 }
 
 .logoContainer {
