@@ -1,6 +1,8 @@
+@charset "UTF-8";
 .hero {
   height: 826px;
   display: flex;
+  background: url("/img/hero/Фото третьестепенное.jpg") bottom 0 left 815px no-repeat, url("/img/hero/Фото вторичное.jpg") top 230px left 1263px no-repeat, url("/img/hero/Фото главное.jpg") top 120px left 945px no-repeat, linear-gradient(#F1EADC, #F1EADC) left 895px top 0 no-repeat;
 }
 
 .heroLeft {
@@ -8,7 +10,6 @@
 }
 
 .heroRight {
-  background-color: #F1EADC;
   width: 705px;
 }
 
