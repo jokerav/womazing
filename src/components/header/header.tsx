@@ -25,6 +25,7 @@ const Header = () => {
                 </div>
                 <ShopingBag/>
             </header>
-        </Container>)
+        </Container>
+    )
 }
 export default Header

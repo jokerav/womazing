@@ -1,3 +1,7 @@
-.container{
-    padding: 0 405px;
+.container {
+  //padding-top: 0;
+  //padding-bottom: 0;
+  //padding-left: calc((100% - 1600px)/2);
+  //padding-right: calc((100% - 1600px)/2);
+  padding: 0 calc((100% - 1110px)/2);
 }

@@ -8,11 +8,28 @@
   url("/img/hero/Фото главное.jpg") top 120px left 945px no-repeat,
   linear-gradient($accent, $accent) left 895px top 0 no-repeat;
 }
-
-.heroLeft {
-  width: 1215px;
+.titleWrapper{
+  padding-left: 245px;
+  padding-top: 265px;
 }
+.heroTitle{
+  color:$text-dark;
+  font-family: Raleway;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: 1.1px;
+  width: 585px;
+  margin-bottom: 45px;
 
-.heroRight {
-  width: 705px;
-  }
+}
+.heroSubTitle{
+  color: $text-dark;
+  text-align: right;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.4px;
+  width: 385px;
+}

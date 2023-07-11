@@ -1,5 +1,5 @@
 .container {
-  padding: 0 405px;
+  padding: 0 calc((100% - 1110px) / 2);
 }
 
 /*# sourceMappingURL=container.module.css.map */

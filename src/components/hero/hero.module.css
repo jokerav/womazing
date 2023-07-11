@@ -5,12 +5,31 @@
   background: url("/img/hero/Фото третьестепенное.jpg") bottom 0 left 815px no-repeat, url("/img/hero/Фото вторичное.jpg") top 230px left 1263px no-repeat, url("/img/hero/Фото главное.jpg") top 120px left 945px no-repeat, linear-gradient(#F1EADC, #F1EADC) left 895px top 0 no-repeat;
 }
 
-.heroLeft {
-  width: 1215px;
+.titleWrapper {
+  padding-left: 245px;
+  padding-top: 265px;
 }
 
-.heroRight {
-  width: 705px;
+.heroTitle {
+  color: #000;
+  font-family: Raleway;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: 1.1px;
+  width: 585px;
+  margin-bottom: 45px;
+}
+
+.heroSubTitle {
+  color: #000;
+  text-align: right;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.4px;
+  width: 385px;
 }
 
 /*# sourceMappingURL=hero.module.css.map */
