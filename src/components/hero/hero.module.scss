@@ -3,14 +3,14 @@
 .hero {
   height: 826px;
   display: flex;
+  padding-left: calc((100% - 1110px)/2);
   background: url("/img/hero/Фото третьестепенное.jpg") bottom 0 left 815px no-repeat,
   url('/img/hero/Фото вторичное.jpg') top 230px left 1263px no-repeat,
   url("/img/hero/Фото главное.jpg") top 120px left 945px no-repeat,
-  linear-gradient($accent, $accent) left 895px top 0 no-repeat;
+  linear-gradient($accent, $accent) left  895px top 0 no-repeat;
 }
 
 .titleWrapper {
-  padding-left: 245px;
   padding-top: 265px;
 }
 
