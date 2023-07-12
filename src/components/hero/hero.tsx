@@ -1,6 +1,5 @@
 import s from './hero.module.scss'
 import {ReactComponent as Arrow} from "img/svg/arrow.svg";
-import Header from "../header/header";
 
 const Hero = () => {
     return (
@@ -11,7 +10,7 @@ const Hero = () => {
                     сезоне. Время исследовать.</p>
                 <div className={s.btnWrapper}>
                     <div className={s.arrowBtn}><Arrow/></div>
-                    <button className={s.openShop}>Открыть магазин</button>
+                    <button className={s.openShopBtn}>Открыть магазин</button>
                 </div>
             </div>
         </section>

@@ -7,7 +7,8 @@
   background: url("/img/hero/Фото третьестепенное.jpg") bottom 0 left 815px no-repeat,
   url('/img/hero/Фото вторичное.jpg') top 230px left 1263px no-repeat,
   url("/img/hero/Фото главное.jpg") top 120px left 945px no-repeat,
-  linear-gradient($accent, $accent) left 895px top -95px no-repeat;
+  linear-gradient($accent, $accent) left 895px top 0px no-repeat;
+  margin-top: -95px;
 }
 
 .titleWrapper {
@@ -54,7 +55,7 @@
   display: inline-block;
 }
 
-.openShop {
+.openShopBtn {
   height: inherit;
   background-color: $accentSecondary;
   padding: 22px 50px;
@@ -66,4 +67,9 @@
   line-height: 138.9%;
   letter-spacing: 0.34px;
   border: none;
+  cursor: pointer;
+  transition: background-color $duration ease;
+  &:focus, &:hover{
+    background-color: $hover-color;
+  }
 }

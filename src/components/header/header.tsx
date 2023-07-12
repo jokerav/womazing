@@ -2,13 +2,13 @@ import s from './header.module.scss'
 import {ReactComponent as Logo} from "img/svg/dress.svg";
 import {ReactComponent as Telephone} from "img/svg/telephone.svg";
 import {ReactComponent as ShopingBag} from "img/svg/shopping-bag.svg";
-// import Container from "../container/container";
+import Container from "../container/container";
 
 const Header = () => {
     return (
-        <div className={s.headerStikyContainer}>
-        {/*<Container>*/}
-            <header className={s.headerContainer}>
+        <header className={s.headerStikyContainer}>
+        <Container>
+            <div className={s.headerContainer}>
                 <div className={s.logoContainer}>
                     <Logo className={s.logoIcon}/>
                     <p className={s.logoText}>Womazing</p>
@@ -24,9 +24,9 @@ const Header = () => {
                     <a href='tel:+380988235412' className={s.phoneNumber}>+7 (495) 823-54-12</a>
                 </div>
                 <ShopingBag/>
-            </header>
-        {/*</Container>*/}
-        </div>
+            </div>
+        </Container>
+        </header>
     )
 }
 export default Header
