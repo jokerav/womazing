@@ -51,9 +51,22 @@
 .phoneContainer {
   margin-right: 67px;
   display: flex;
+  align-items: center;
+}
+.iconWrapper{
+  background-color: transparent;
+  padding: 5px 5px 5px 5px;
+  margin-right: 13px;
+  &:hover, &:focus{
+    background-color: $accentSecondary;
+  }
+  &:hover .phoneIcon, &:focus .phoneIcon{
+    stroke: $light-white;
+  }
 }
 .phoneIcon {
-  margin-right: 13px;
+  width: 17px;
+  height: 17px;
 }
 .phoneNumber{
   color: $text-dark;

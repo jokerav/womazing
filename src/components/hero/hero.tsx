@@ -9,11 +9,12 @@ const Hero = () => {
                 <p className={s.heroSubTitle}>Утонченные сочетания и бархатные оттенки - вот то, что вы искали в этом
                     сезоне. Время исследовать.</p>
                 <div className={s.btnWrapper}>
-                    <div className={s.arrowBtn}><Arrow/></div>
-                    <button className={s.openShopBtn}>Открыть магазин</button>
+
+                        <div className={s.arrowBtn}><Arrow/></div>
+                        <button className={s.openShopBtn}>Открыть магазин</button>
+                    </div>
                 </div>
-            </div>
         </section>
-    )
+)
 }
 export default Hero;

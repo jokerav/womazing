@@ -56,10 +56,24 @@
 .phoneContainer {
   margin-right: 67px;
   display: flex;
+  align-items: center;
+}
+
+.iconWrapper {
+  background-color: transparent;
+  padding: 5px 5px 5px 5px;
+  margin-right: 13px;
+}
+.iconWrapper:hover, .iconWrapper:focus {
+  background-color: #6E9C9F;
+}
+.iconWrapper:hover .phoneIcon, .iconWrapper:focus .phoneIcon {
+  stroke: #fff;
 }
 
 .phoneIcon {
-  margin-right: 13px;
+  width: 17px;
+  height: 17px;
 }
 
 .phoneNumber {
