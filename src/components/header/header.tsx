@@ -2,12 +2,12 @@ import s from './header.module.scss'
 import {ReactComponent as Logo} from "img/svg/dress.svg";
 import {ReactComponent as Telephone} from "img/svg/telephone.svg";
 import {ReactComponent as ShopingBag} from "img/svg/shopping-bag.svg";
-import Container from "../container/container";
-
+// import Container from "../container/container";
 
 const Header = () => {
     return (
-        <Container>
+        <div className={s.headerStikyContainer}>
+        {/*<Container>*/}
             <header className={s.headerContainer}>
                 <div className={s.logoContainer}>
                     <Logo className={s.logoIcon}/>
@@ -25,7 +25,8 @@ const Header = () => {
                 </div>
                 <ShopingBag/>
             </header>
-        </Container>
+        {/*</Container>*/}
+        </div>
     )
 }
 export default Header

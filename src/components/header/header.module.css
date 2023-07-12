@@ -1,11 +1,15 @@
+.headerStikyContainer {
+  position: sticky;
+  top: 0;
+}
+
 .headerContainer {
   height: 28px;
-  background-color: transparent;
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 51px;
-  position: absolute;
+  height: 95px;
 }
 
 .logoContainer {

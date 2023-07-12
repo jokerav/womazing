@@ -1,13 +1,15 @@
 @import '../../vars';
-
+.headerStikyContainer{
+  position: sticky;
+  top: 0;
+}
 .headerContainer {
   height: 28px;
-  background-color: transparent;
+  background-color: $light-white;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 51px;
-  position: absolute;
+  height: 95px;
 }
 
 .logoContainer {
@@ -49,7 +51,6 @@
 .phoneContainer {
   margin-right: 67px;
   display: flex;
-  //align-items: center;
 }
 .phoneIcon {
   margin-right: 13px;

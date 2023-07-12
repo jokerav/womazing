@@ -1,5 +1,6 @@
 import s from './hero.module.scss'
 import {ReactComponent as Arrow} from "img/svg/arrow.svg";
+import Header from "../header/header";
 
 const Hero = () => {
     return (
@@ -13,7 +14,6 @@ const Hero = () => {
                     <button className={s.openShop}>Открыть магазин</button>
                 </div>
             </div>
-
         </section>
     )
 }
