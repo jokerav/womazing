@@ -6,7 +6,7 @@ import Container from "../container/container";
 
 const Header = () => {
     return (
-        <header className={s.headerStikyContainer}>
+        <header className={s.headerStiсkyContainer}>
         <Container>
             <div className={s.headerContainer}>
                 <div className={s.logoContainer}>
