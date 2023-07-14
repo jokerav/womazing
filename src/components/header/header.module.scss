@@ -4,7 +4,6 @@
   top: 0;
 }
 .headerContainer {
-  height: 28px;
   background-color: transparent;
   display: flex;
   align-items: center;
@@ -31,7 +30,8 @@
 
 .menu {
   display: flex;
-  margin-right: 176px;
+  margin-right: 170px;
+  align-items: center;
 }
 .menuItem{
   color: $text-dark;
@@ -56,7 +56,8 @@
 .iconWrapper{
   background-color: transparent;
   padding: 5px 5px 5px 5px;
-  margin-right: 13px;
+  margin-right: 9px;
+  transition: background-color $duration ease;
   &:hover, &:focus{
     background-color: $accentSecondary;
   }
