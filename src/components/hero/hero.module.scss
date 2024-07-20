@@ -27,7 +27,7 @@ padding-top: 265px;
 }
 .heroTitle {
   color: $text-dark;
-  font-family: Raleway;
+  font-family: $font-main;
   font-size: 55px;
   font-weight: 500;
   line-height: 110%;
@@ -40,7 +40,7 @@ padding-top: 265px;
 .heroSubTitle {
   color: $text-dark;
   text-align: right;
-  font-family: Raleway;
+  font-family: $font-main;
   font-size: 20px;
   font-weight: 400;
   line-height: 140%;
@@ -68,7 +68,7 @@ padding-top: 265px;
   background-color: $accentSecondary;
   padding: 22px 50px;
   color: $light-white;
-  font-family: Raleway;
+  font-family: $font-main;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;

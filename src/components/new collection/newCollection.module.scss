@@ -1,0 +1,41 @@
+@import "../../vars";
+.newCollection{
+padding-top: 130px;
+}
+.newCollection_link{
+  //display: block;
+}
+.newCollection_title{
+  color: $text-dark;
+  font-family: $font-main;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: 0.8px;
+  margin-bottom: 92px;
+}
+.newCollection_list{
+  display: flex;
+
+}
+.newCollection_item{
+  &:not(:last-child){
+    margin-right: 30px;
+  }
+}
+.newCollection_cadr{
+  display: flex;
+  flex-direction: column;
+}
+.newCollection_photo{
+  margin-bottom: 24px;
+}
+.newCollection_card_title{
+  color: $text-dark;
+  font-family: $font-main;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 140%; /* 28px */
+  letter-spacing: 0.4px;
+  margin: 0 auto;
+}
